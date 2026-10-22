@@ -1,0 +1,401 @@
+exception_id,predicted_type,rule
+EXC-0001,partial_payment,bank amount smaller than GL amount
+EXC-0002,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0003,partial_payment,bank amount smaller than GL amount
+EXC-0004,fx_difference,foreign currency and difference under 2%
+EXC-0005,transposition,difference divisible by 9 and same digits
+EXC-0006,transposition,difference divisible by 9 and same digits
+EXC-0007,partial_payment,bank amount smaller than GL amount
+EXC-0008,partial_payment,bank amount smaller than GL amount
+EXC-0009,duplicate,another GL row has the same reference and amount
+EXC-0010,duplicate,another GL row has the same reference and amount
+EXC-0011,unclear,no rule fired
+EXC-0012,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0013,fx_difference,foreign currency and difference under 2%
+EXC-0014,fx_difference,foreign currency and difference under 2%
+EXC-0015,duplicate,another GL row has the same reference and amount
+EXC-0016,unclear,no rule fired
+EXC-0017,transposition,difference divisible by 9 and same digits
+EXC-0018,partial_payment,bank amount smaller than GL amount
+EXC-0019,unclear,no rule fired
+EXC-0020,transposition,difference divisible by 9 and same digits
+EXC-0021,transposition,difference divisible by 9 and same digits
+EXC-0022,fx_difference,foreign currency and difference under 2%
+EXC-0023,transposition,difference divisible by 9 and same digits
+EXC-0024,partial_payment,bank amount smaller than GL amount
+EXC-0025,duplicate,another GL row has the same reference and amount
+EXC-0026,fx_difference,foreign currency and difference under 2%
+EXC-0027,partial_payment,bank amount smaller than GL amount
+EXC-0028,transposition,difference divisible by 9 and same digits
+EXC-0029,unclear,no rule fired
+EXC-0030,unclear,no rule fired
+EXC-0031,fx_difference,foreign currency and difference under 2%
+EXC-0032,duplicate,another GL row has the same reference and amount
+EXC-0033,fx_difference,foreign currency and difference under 2%
+EXC-0034,duplicate,another GL row has the same reference and amount
+EXC-0035,transposition,difference divisible by 9 and same digits
+EXC-0036,unclear,no rule fired
+EXC-0037,partial_payment,bank amount smaller than GL amount
+EXC-0038,unclear,no rule fired
+EXC-0039,duplicate,another GL row has the same reference and amount
+EXC-0040,unclear,no rule fired
+EXC-0041,partial_payment,bank amount smaller than GL amount
+EXC-0042,unclear,no rule fired
+EXC-0043,transposition,difference divisible by 9 and same digits
+EXC-0044,fx_difference,foreign currency and difference under 2%
+EXC-0045,partial_payment,bank amount smaller than GL amount
+EXC-0046,duplicate,another GL row has the same reference and amount
+EXC-0047,partial_payment,bank amount smaller than GL amount
+EXC-0048,fx_difference,foreign currency and difference under 2%
+EXC-0049,transposition,difference divisible by 9 and same digits
+EXC-0050,fx_difference,foreign currency and difference under 2%
+EXC-0051,unclear,no rule fired
+EXC-0052,fx_difference,foreign currency and difference under 2%
+EXC-0053,partial_payment,bank amount smaller than GL amount
+EXC-0054,transposition,difference divisible by 9 and same digits
+EXC-0055,transposition,difference divisible by 9 and same digits
+EXC-0056,fx_difference,foreign currency and difference under 2%
+EXC-0057,unclear,no rule fired
+EXC-0058,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0059,fx_difference,foreign currency and difference under 2%
+EXC-0060,duplicate,another GL row has the same reference and amount
+EXC-0061,unclear,no rule fired
+EXC-0062,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0063,transposition,difference divisible by 9 and same digits
+EXC-0064,unclear,no rule fired
+EXC-0065,partial_payment,bank amount smaller than GL amount
+EXC-0066,unclear,no rule fired
+EXC-0067,partial_payment,bank amount smaller than GL amount
+EXC-0068,transposition,difference divisible by 9 and same digits
+EXC-0069,fx_difference,foreign currency and difference under 2%
+EXC-0070,partial_payment,bank amount smaller than GL amount
+EXC-0071,fx_difference,foreign currency and difference under 2%
+EXC-0072,fx_difference,foreign currency and difference under 2%
+EXC-0073,partial_payment,bank amount smaller than GL amount
+EXC-0074,fx_difference,foreign currency and difference under 2%
+EXC-0075,transposition,difference divisible by 9 and same digits
+EXC-0076,transposition,difference divisible by 9 and same digits
+EXC-0077,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0078,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0079,partial_payment,bank amount smaller than GL amount
+EXC-0080,transposition,difference divisible by 9 and same digits
+EXC-0081,partial_payment,bank amount smaller than GL amount
+EXC-0082,fx_difference,foreign currency and difference under 2%
+EXC-0083,fx_difference,foreign currency and difference under 2%
+EXC-0084,partial_payment,bank amount smaller than GL amount
+EXC-0085,unclear,no rule fired
+EXC-0086,fx_difference,foreign currency and difference under 2%
+EXC-0087,transposition,difference divisible by 9 and same digits
+EXC-0088,unclear,no rule fired
+EXC-0089,partial_payment,bank amount smaller than GL amount
+EXC-0090,fx_difference,foreign currency and difference under 2%
+EXC-0091,fx_difference,foreign currency and difference under 2%
+EXC-0092,transposition,difference divisible by 9 and same digits
+EXC-0093,transposition,difference divisible by 9 and same digits
+EXC-0094,partial_payment,bank amount smaller than GL amount
+EXC-0095,duplicate,another GL row has the same reference and amount
+EXC-0096,partial_payment,bank amount smaller than GL amount
+EXC-0097,partial_payment,bank amount smaller than GL amount
+EXC-0098,unclear,no rule fired
+EXC-0099,transposition,difference divisible by 9 and same digits
+EXC-0100,duplicate,another GL row has the same reference and amount
+EXC-0101,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0102,fx_difference,foreign currency and difference under 2%
+EXC-0103,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0104,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0105,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0106,fx_difference,foreign currency and difference under 2%
+EXC-0107,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0108,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0109,partial_payment,bank amount smaller than GL amount
+EXC-0110,duplicate,another GL row has the same reference and amount
+EXC-0111,duplicate,another GL row has the same reference and amount
+EXC-0112,transposition,difference divisible by 9 and same digits
+EXC-0113,fx_difference,foreign currency and difference under 2%
+EXC-0114,transposition,difference divisible by 9 and same digits
+EXC-0115,fx_difference,foreign currency and difference under 2%
+EXC-0116,fx_difference,foreign currency and difference under 2%
+EXC-0117,fx_difference,foreign currency and difference under 2%
+EXC-0118,transposition,difference divisible by 9 and same digits
+EXC-0119,duplicate,another GL row has the same reference and amount
+EXC-0120,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0121,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0122,unclear,no rule fired
+EXC-0123,unclear,no rule fired
+EXC-0124,duplicate,another GL row has the same reference and amount
+EXC-0125,transposition,difference divisible by 9 and same digits
+EXC-0126,transposition,difference divisible by 9 and same digits
+EXC-0127,unclear,no rule fired
+EXC-0128,unclear,no rule fired
+EXC-0129,transposition,difference divisible by 9 and same digits
+EXC-0130,partial_payment,bank amount smaller than GL amount
+EXC-0131,duplicate,another GL row has the same reference and amount
+EXC-0132,unclear,no rule fired
+EXC-0133,duplicate,another GL row has the same reference and amount
+EXC-0134,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0135,transposition,difference divisible by 9 and same digits
+EXC-0136,unclear,no rule fired
+EXC-0137,partial_payment,bank amount smaller than GL amount
+EXC-0138,partial_payment,bank amount smaller than GL amount
+EXC-0139,transposition,difference divisible by 9 and same digits
+EXC-0140,transposition,difference divisible by 9 and same digits
+EXC-0141,partial_payment,bank amount smaller than GL amount
+EXC-0142,partial_payment,bank amount smaller than GL amount
+EXC-0143,partial_payment,bank amount smaller than GL amount
+EXC-0144,duplicate,another GL row has the same reference and amount
+EXC-0145,duplicate,another GL row has the same reference and amount
+EXC-0146,partial_payment,bank amount smaller than GL amount
+EXC-0147,partial_payment,bank amount smaller than GL amount
+EXC-0148,unclear,no rule fired
+EXC-0149,unclear,no rule fired
+EXC-0150,fx_difference,foreign currency and difference under 2%
+EXC-0151,partial_payment,bank amount smaller than GL amount
+EXC-0152,fx_difference,foreign currency and difference under 2%
+EXC-0153,transposition,difference divisible by 9 and same digits
+EXC-0154,fx_difference,foreign currency and difference under 2%
+EXC-0155,unclear,no rule fired
+EXC-0156,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0157,transposition,difference divisible by 9 and same digits
+EXC-0158,fx_difference,foreign currency and difference under 2%
+EXC-0159,transposition,difference divisible by 9 and same digits
+EXC-0160,unclear,no rule fired
+EXC-0161,transposition,difference divisible by 9 and same digits
+EXC-0162,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0163,transposition,difference divisible by 9 and same digits
+EXC-0164,unclear,no rule fired
+EXC-0165,unclear,no rule fired
+EXC-0166,duplicate,another GL row has the same reference and amount
+EXC-0167,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0168,unclear,no rule fired
+EXC-0169,duplicate,another GL row has the same reference and amount
+EXC-0170,unclear,no rule fired
+EXC-0171,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0172,transposition,difference divisible by 9 and same digits
+EXC-0173,partial_payment,bank amount smaller than GL amount
+EXC-0174,transposition,difference divisible by 9 and same digits
+EXC-0175,duplicate,another GL row has the same reference and amount
+EXC-0176,duplicate,another GL row has the same reference and amount
+EXC-0177,partial_payment,bank amount smaller than GL amount
+EXC-0178,transposition,difference divisible by 9 and same digits
+EXC-0179,duplicate,another GL row has the same reference and amount
+EXC-0180,duplicate,another GL row has the same reference and amount
+EXC-0181,duplicate,another GL row has the same reference and amount
+EXC-0182,unclear,no rule fired
+EXC-0183,unclear,no rule fired
+EXC-0184,transposition,difference divisible by 9 and same digits
+EXC-0185,unclear,no rule fired
+EXC-0186,transposition,difference divisible by 9 and same digits
+EXC-0187,unclear,no rule fired
+EXC-0188,unclear,no rule fired
+EXC-0189,duplicate,another GL row has the same reference and amount
+EXC-0190,transposition,difference divisible by 9 and same digits
+EXC-0191,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0192,transposition,difference divisible by 9 and same digits
+EXC-0193,transposition,difference divisible by 9 and same digits
+EXC-0194,unclear,no rule fired
+EXC-0195,partial_payment,bank amount smaller than GL amount
+EXC-0196,transposition,difference divisible by 9 and same digits
+EXC-0197,partial_payment,bank amount smaller than GL amount
+EXC-0198,unclear,no rule fired
+EXC-0199,partial_payment,bank amount smaller than GL amount
+EXC-0200,unclear,no rule fired
+EXC-0201,partial_payment,bank amount smaller than GL amount
+EXC-0202,unclear,no rule fired
+EXC-0203,transposition,difference divisible by 9 and same digits
+EXC-0204,partial_payment,bank amount smaller than GL amount
+EXC-0205,partial_payment,bank amount smaller than GL amount
+EXC-0206,unclear,no rule fired
+EXC-0207,transposition,difference divisible by 9 and same digits
+EXC-0208,transposition,difference divisible by 9 and same digits
+EXC-0209,transposition,difference divisible by 9 and same digits
+EXC-0210,partial_payment,bank amount smaller than GL amount
+EXC-0211,fx_difference,foreign currency and difference under 2%
+EXC-0212,partial_payment,bank amount smaller than GL amount
+EXC-0213,partial_payment,bank amount smaller than GL amount
+EXC-0214,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0215,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0216,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0217,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0218,transposition,difference divisible by 9 and same digits
+EXC-0219,transposition,difference divisible by 9 and same digits
+EXC-0220,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0221,transposition,difference divisible by 9 and same digits
+EXC-0222,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0223,duplicate,another GL row has the same reference and amount
+EXC-0224,partial_payment,bank amount smaller than GL amount
+EXC-0225,duplicate,another GL row has the same reference and amount
+EXC-0226,unclear,no rule fired
+EXC-0227,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0228,partial_payment,bank amount smaller than GL amount
+EXC-0229,unclear,no rule fired
+EXC-0230,unclear,no rule fired
+EXC-0231,duplicate,another GL row has the same reference and amount
+EXC-0232,unclear,no rule fired
+EXC-0233,unclear,no rule fired
+EXC-0234,transposition,difference divisible by 9 and same digits
+EXC-0235,unclear,no rule fired
+EXC-0236,partial_payment,bank amount smaller than GL amount
+EXC-0237,unclear,no rule fired
+EXC-0238,fx_difference,foreign currency and difference under 2%
+EXC-0239,transposition,difference divisible by 9 and same digits
+EXC-0240,duplicate,another GL row has the same reference and amount
+EXC-0241,partial_payment,bank amount smaller than GL amount
+EXC-0242,transposition,difference divisible by 9 and same digits
+EXC-0243,partial_payment,bank amount smaller than GL amount
+EXC-0244,duplicate,another GL row has the same reference and amount
+EXC-0245,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0246,fx_difference,foreign currency and difference under 2%
+EXC-0247,partial_payment,bank amount smaller than GL amount
+EXC-0248,unclear,no rule fired
+EXC-0249,duplicate,another GL row has the same reference and amount
+EXC-0250,fx_difference,foreign currency and difference under 2%
+EXC-0251,transposition,difference divisible by 9 and same digits
+EXC-0252,duplicate,another GL row has the same reference and amount
+EXC-0253,fx_difference,foreign currency and difference under 2%
+EXC-0254,transposition,difference divisible by 9 and same digits
+EXC-0255,unclear,no rule fired
+EXC-0256,duplicate,another GL row has the same reference and amount
+EXC-0257,duplicate,another GL row has the same reference and amount
+EXC-0258,unclear,no rule fired
+EXC-0259,partial_payment,bank amount smaller than GL amount
+EXC-0260,transposition,difference divisible by 9 and same digits
+EXC-0261,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0262,partial_payment,bank amount smaller than GL amount
+EXC-0263,unclear,no rule fired
+EXC-0264,duplicate,another GL row has the same reference and amount
+EXC-0265,unclear,no rule fired
+EXC-0266,unclear,no rule fired
+EXC-0267,transposition,difference divisible by 9 and same digits
+EXC-0268,unclear,no rule fired
+EXC-0269,fx_difference,foreign currency and difference under 2%
+EXC-0270,unclear,no rule fired
+EXC-0271,unclear,no rule fired
+EXC-0272,unclear,no rule fired
+EXC-0273,fx_difference,foreign currency and difference under 2%
+EXC-0274,fx_difference,foreign currency and difference under 2%
+EXC-0275,fx_difference,foreign currency and difference under 2%
+EXC-0276,duplicate,another GL row has the same reference and amount
+EXC-0277,unclear,no rule fired
+EXC-0278,unclear,no rule fired
+EXC-0279,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0280,transposition,difference divisible by 9 and same digits
+EXC-0281,transposition,difference divisible by 9 and same digits
+EXC-0282,unclear,no rule fired
+EXC-0283,unclear,no rule fired
+EXC-0284,duplicate,another GL row has the same reference and amount
+EXC-0285,fx_difference,foreign currency and difference under 2%
+EXC-0286,unclear,no rule fired
+EXC-0287,unclear,no rule fired
+EXC-0288,unclear,no rule fired
+EXC-0289,unclear,no rule fired
+EXC-0290,fx_difference,foreign currency and difference under 2%
+EXC-0291,duplicate,another GL row has the same reference and amount
+EXC-0292,unclear,no rule fired
+EXC-0293,unclear,no rule fired
+EXC-0294,partial_payment,bank amount smaller than GL amount
+EXC-0295,partial_payment,bank amount smaller than GL amount
+EXC-0296,unclear,no rule fired
+EXC-0297,unclear,no rule fired
+EXC-0298,duplicate,another GL row has the same reference and amount
+EXC-0299,unclear,no rule fired
+EXC-0300,unclear,no rule fired
+EXC-0301,partial_payment,bank amount smaller than GL amount
+EXC-0302,transposition,difference divisible by 9 and same digits
+EXC-0303,unclear,no rule fired
+EXC-0304,unclear,no rule fired
+EXC-0305,partial_payment,bank amount smaller than GL amount
+EXC-0306,fx_difference,foreign currency and difference under 2%
+EXC-0307,fx_difference,foreign currency and difference under 2%
+EXC-0308,unclear,no rule fired
+EXC-0309,fx_difference,foreign currency and difference under 2%
+EXC-0310,partial_payment,bank amount smaller than GL amount
+EXC-0311,unclear,no rule fired
+EXC-0312,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0313,partial_payment,bank amount smaller than GL amount
+EXC-0314,transposition,difference divisible by 9 and same digits
+EXC-0315,transposition,difference divisible by 9 and same digits
+EXC-0316,unclear,no rule fired
+EXC-0317,unclear,no rule fired
+EXC-0318,unclear,no rule fired
+EXC-0319,duplicate,another GL row has the same reference and amount
+EXC-0320,fx_difference,foreign currency and difference under 2%
+EXC-0321,fx_difference,foreign currency and difference under 2%
+EXC-0322,fx_difference,foreign currency and difference under 2%
+EXC-0323,duplicate,another GL row has the same reference and amount
+EXC-0324,transposition,difference divisible by 9 and same digits
+EXC-0325,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0326,fx_difference,foreign currency and difference under 2%
+EXC-0327,partial_payment,bank amount smaller than GL amount
+EXC-0328,fx_difference,foreign currency and difference under 2%
+EXC-0329,timing,posted in the last 5 days of the month
+EXC-0330,timing,posted in the last 5 days of the month
+EXC-0331,timing,posted in the last 5 days of the month
+EXC-0332,timing,posted in the last 5 days of the month
+EXC-0333,timing,posted in the last 5 days of the month
+EXC-0334,timing,posted in the last 5 days of the month
+EXC-0335,timing,posted in the last 5 days of the month
+EXC-0336,timing,posted in the last 5 days of the month
+EXC-0337,timing,posted in the last 5 days of the month
+EXC-0338,unclear,no rule fired
+EXC-0339,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0340,transposition,difference divisible by 9 and same digits
+EXC-0341,fx_difference,foreign currency and difference under 2%
+EXC-0342,fx_difference,foreign currency and difference under 2%
+EXC-0343,timing,posted in the last 5 days of the month
+EXC-0344,timing,posted in the last 5 days of the month
+EXC-0345,timing,posted in the last 5 days of the month
+EXC-0346,timing,posted in the last 5 days of the month
+EXC-0347,timing,posted in the last 5 days of the month
+EXC-0348,timing,posted in the last 5 days of the month
+EXC-0349,timing,posted in the last 5 days of the month
+EXC-0350,timing,posted in the last 5 days of the month
+EXC-0351,timing,posted in the last 5 days of the month
+EXC-0352,timing,posted in the last 5 days of the month
+EXC-0353,timing,posted in the last 5 days of the month
+EXC-0354,timing,posted in the last 5 days of the month
+EXC-0355,timing,posted in the last 5 days of the month
+EXC-0356,unclear,no rule fired
+EXC-0357,unclear,no rule fired
+EXC-0358,timing,posted in the last 5 days of the month
+EXC-0359,timing,posted in the last 5 days of the month
+EXC-0360,timing,posted in the last 5 days of the month
+EXC-0361,timing,posted in the last 5 days of the month
+EXC-0362,timing,posted in the last 5 days of the month
+EXC-0363,timing,posted in the last 5 days of the month
+EXC-0364,fx_difference,foreign currency and difference under 2%
+EXC-0365,unclear,no rule fired
+EXC-0366,fx_difference,foreign currency and difference under 2%
+EXC-0367,partial_payment,bank amount smaller than GL amount
+EXC-0368,partial_payment,bank amount smaller than GL amount
+EXC-0369,timing,posted in the last 5 days of the month
+EXC-0370,timing,posted in the last 5 days of the month
+EXC-0371,timing,posted in the last 5 days of the month
+EXC-0372,timing,posted in the last 5 days of the month
+EXC-0373,timing,posted in the last 5 days of the month
+EXC-0374,timing,posted in the last 5 days of the month
+EXC-0375,timing,posted in the last 5 days of the month
+EXC-0376,timing,posted in the last 5 days of the month
+EXC-0377,timing,posted in the last 5 days of the month
+EXC-0378,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0379,fx_difference,foreign currency and difference under 2%
+EXC-0380,transposition,difference divisible by 9 and same digits
+EXC-0381,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0382,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0383,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0384,fx_difference,foreign currency and difference under 2%
+EXC-0385,fx_difference,foreign currency and difference under 2%
+EXC-0386,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0387,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0388,missing_entry,"bank description contains CHG, FEE, INT or CHARGES"
+EXC-0389,unclear,no rule fired
+EXC-0390,timing,posted in the last 5 days of the month
+EXC-0391,timing,posted in the last 5 days of the month
+EXC-0392,timing,posted in the last 5 days of the month
+EXC-0393,timing,posted in the last 5 days of the month
+EXC-0394,timing,posted in the last 5 days of the month
+EXC-0395,timing,posted in the last 5 days of the month
+EXC-0396,timing,posted in the last 5 days of the month
+EXC-0397,duplicate,another GL row has the same reference and amount
+EXC-0398,timing,posted in the last 5 days of the month
+EXC-0399,timing,posted in the last 5 days of the month
+EXC-0400,timing,posted in the last 5 days of the month

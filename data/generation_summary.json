@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "n_transactions": 5000,
+  "usd_share": 0.15,
+  "bank_rows": 5000,
+  "gl_rows": 5064,
+  "planted_breaks": 400,
+  "breaks_by_type": {
+    "timing": 68,
+    "fx_difference": 68,
+    "partial_payment": 66,
+    "duplicate": 64,
+    "transposition": 66,
+    "missing_entry": 68
+  },
+  "hard_by_type": {
+    "timing": 22,
+    "fx_difference": 20,
+    "partial_payment": 28,
+    "duplicate": 20,
+    "transposition": 0,
+    "missing_entry": 28
+  }
+}

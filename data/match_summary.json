@@ -1,0 +1,19 @@
+{
+  "bank_rows": 5000,
+  "gl_rows": 5064,
+  "total_rows": 10064,
+  "matched_pairs": 4732,
+  "matched_pass1": 3794,
+  "matched_pass2": 938,
+  "rows_cleared": 9464,
+  "auto_match_rate_pct": 94.04,
+  "bank_rows_matched_pct": 94.64,
+  "exceptions": 400,
+  "exceptions_by_kind": {
+    "amount_mismatch": 200,
+    "bank_only": 68,
+    "gl_only": 132
+  },
+  "dev_exceptions": 50,
+  "test_exceptions": 350
+}

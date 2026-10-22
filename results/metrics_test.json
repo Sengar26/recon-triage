@@ -1,0 +1,68 @@
+{
+  "split": "test",
+  "evaluated_on": "2026-09-25",
+  "seed": 42,
+  "n_transactions": 5000,
+  "auto_match_rate_pct": 94.04,
+  "exceptions_scored": 350,
+  "exceptions_without_planted_break": 0,
+  "planted_breaks_not_surfaced": 0,
+  "hard_cases": 105,
+  "rules": {
+    "accuracy": 0.7657142857142857,
+    "hard_accuracy": 0.21904761904761905,
+    "unclear_rate": 0.22,
+    "per_type": {
+      "timing": 0.6885245901639344,
+      "fx_difference": 0.7543859649122807,
+      "partial_payment": 0.9259259259259259,
+      "duplicate": 0.6491228070175439,
+      "transposition": 1.0,
+      "missing_entry": 0.5833333333333334
+    }
+  },
+  "agent": {
+    "model": "gpt-4.1-mini",
+    "predictions": 350,
+    "accuracy": 0.9428571428571428,
+    "hard_accuracy": 0.8476190476190476,
+    "unclear_rate": 0.0,
+    "per_type": {
+      "timing": 1.0,
+      "fx_difference": 0.9649122807017544,
+      "partial_payment": 1.0,
+      "duplicate": 0.7017543859649122,
+      "transposition": 0.9836065573770492,
+      "missing_entry": 1.0
+    },
+    "ungrounded_notes": 0,
+    "forced_unclear": 0,
+    "label_repairs": 0,
+    "avg_tool_calls": 3.3085714285714287,
+    "cost_usd": 0.7754650000000001,
+    "cost_per_exception_usd": 0.002215614285714286,
+    "accuracy_by_confidence": {
+      "high": {
+        "n": 348,
+        "accuracy": 0.9454022988505747
+      },
+      "medium": {
+        "n": 2,
+        "accuracy": 0.5
+      },
+      "low": {
+        "n": 0,
+        "accuracy": NaN
+      }
+    }
+  },
+  "per_type_n": {
+    "timing": 61,
+    "fx_difference": 57,
+    "partial_payment": 54,
+    "duplicate": 57,
+    "transposition": 61,
+    "missing_entry": 60
+  },
+  "lift_pp": 17.7
+}
